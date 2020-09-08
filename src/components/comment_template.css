@@ -1,0 +1,9 @@
+.user_name{
+    font-size:14px;
+    font-weight: bold;
+    
+}
+.comments-list .media{
+    margin-top: 30px;   
+    border-bottom: 1px dotted #ccc;
+}

@@ -1,0 +1,44 @@
+.brand {
+  background-color: black;
+  height: 70px;
+  background-repeat: no-repeat;
+}
+
+.eventList {
+  height: 1000px;
+}
+.navtemp {
+  color: white !important;
+}
+.temp1 {
+  padding-top: 15px;
+}
+.navbar {
+  color: white !important;
+  z-index: 100;
+  position: absolute;
+  background-color: black !important;
+}
+
+.dashboard {
+  position: relative;
+}
+
+.navbar-nav {
+  float: right !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(255, 255, 255) !important;
+  margin-right: -15 !important;
+}
+.navbar-light .navbar-nav .nav-link :hover {
+  color: black !important;
+}
+.container {
+  max-width: 100% !important;
+}
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}

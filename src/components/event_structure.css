@@ -1,0 +1,173 @@
+.brand {
+  box-shadow: black;
+  margin-bottom: 0px;
+  color: white;
+  height: 70px;
+}
+
+.header {
+  margin-top: 1%;
+  padding-top: 15px;
+  font-size: 30px;
+  max-height: 100px;
+  margin-bottom: 20px;
+  /* border-bottom: 1px gray solid; */
+  color: black;
+  /* background-image: url(Event-b.jpg); */
+  background-color: rgba(97, 222, 253, 0.863);
+  box-shadow: 2px 3px 8px 1px rgba(172, 172, 172, 0.342);
+}
+
+.heading {
+  margin-bottom: 2px;
+  padding: 5px;
+  font-size: 30px;
+
+  color: black;
+}
+.filter {
+  position: relative;
+
+  padding-left: 20px;
+
+  /* border-left: 5px rgb(194, 141, 141) solid;
+  border-top: 1px rgb(194, 141, 141) solid;
+  border-bottom: 1px rgb(194, 141, 141) solid;
+  border-right: 1px rgb(194, 141, 141) solid; */
+}
+.filter-heading {
+  font-size: large;
+  padding-left: 15 px;
+}
+.filter-cmt {
+  font-size: large;
+  overflow: hidden;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: 5px;
+  box-shadow: 2px 2px 7px 1px rgba(172, 172, 172, 0.342);
+  color: black;
+}
+.by-committee {
+  margin-bottom: 20px;
+}
+.filter-cmt:hover {
+  cursor: pointer;
+  background: rgb(255, 255, 255);
+  color: rgb(52, 31, 80);
+}
+.event-template {
+  margin: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  padding-bottom: 20px;
+  box-shadow: 2px 3px 8px 1px rgba(172, 172, 172, 0.342);
+
+  /* border-left: 5px rgb(194, 141, 141) solid;
+  border-top: 1px rgb(194, 141, 141) solid;
+  border-bottom: 1px rgb(194, 141, 141) solid;
+  border-right: 1px rgb(194, 141, 141) solid;
+  border-radius: 5px; */
+}
+.event-heading {
+  padding-left: 15px;
+  margin-bottom: 2px;
+  border-radius: 20px;
+  color: black;
+}
+.organize {
+  padding-left: 20px;
+  font-weight: 650;
+  font-size: large;
+  display: inline;
+  color: black;
+}
+.organizer {
+  font-weight: 600;
+  font-size: medium;
+  color: gray;
+}
+.textclr {
+  color: black;
+}
+
+.date {
+  font-weight: 650;
+  font-size: medium;
+  padding-left: 20px;
+  padding-bottom: 7px;
+  color: black;
+}
+.more-info {
+  color: white;
+  font-weight: bolder;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: 5px;
+  margin-left: 20px;
+  border: 2px white solid;
+  border-radius: 5px;
+  background: rgba(255, 88, 144, 0.7);
+}
+.more-info:hover {
+  background: rgba(252, 35, 108, 0.7);
+}
+.info {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  color: black;
+}
+.RSVP {
+  color: white;
+  font-weight: bolder;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: 5px;
+  margin-left: 20px;
+  border: 2px white solid;
+  border-radius: 5px;
+  background: rgba(88, 255, 88, 0.7);
+}
+.RSVP:hover {
+  background: rgba(0, 226, 0, 0.7);
+}
+
+.approval {
+  color: white;
+  font-weight: bolder;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: 5px;
+  margin-left: 20px;
+  border: 2px white solid;
+  border-radius: 5px;
+  background: rgba(0, 132, 255, 0.7);
+}
+.approval:hover {
+  background: rgba(0, 132, 255, 0.7);
+}
+
+.by-date {
+  margin-left: 10px;
+}
+
+/* Removes the clear button from date inputs */
+.comments {
+  
+  padding: 20px;
+  margin-top: 50px;
+  max-width: 75%;
+}
+
+.comments .heading {
+  font-size: x-large !important;
+  opacity: 0.6;
+}

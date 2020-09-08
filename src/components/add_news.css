@@ -1,0 +1,141 @@
+img.main {
+  /* min-height: 100%;
+    min-width: 1024px; */
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.NewsForm {
+  box-shadow: 2px 3px 8px 1px rgba(0, 0, 0, 0.6) !important;
+  width: 500px;
+  height: 350px;
+  background: #f8f8f8;
+  opacity: 0.8;
+  background-size: cover;
+  color: rgb(0, 0, 0);
+  top: 45%;
+  left: 50%;
+  border-radius: 20px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 30px 30px;
+}
+
+.user {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+  box-shadow: 2px 3px 8px 1px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.NewsForm p[id="age"] {
+  float: left;
+  text-align: left;
+}
+.NewsForm p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.NewsForm button {
+  background-color: #4caf50;
+  border: none;
+  color: black;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 1%;
+  width: 400px;
+}
+.button1 {
+  border-radius: 48px;
+}
+/*.NewsForm input[type="radio"] {
+      inline-size: 4rem;
+      float: left;
+      width: 50px;
+      margin-right: 10px;
+    }
+    .NewsForm label {
+      float: left;
+      width: 50px;
+    }*/
+.NewsForm input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.NewsForm input[type="text"],
+input[type="password"],
+input[type="tel"],
+input[type="date"],
+input[type="time"] {
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: black;
+  font-size: 16px;
+}
+.NewsForm input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: black;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.NewsForm input[type="submit"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+.NewsForm a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.NewsForm a:hover {
+  color: #ffc107;
+}
+
+/* .container {
+  max-width: 1400px !important;
+} */
+
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  backdrop-filter: blur(2px);
+  background-color: rgba(0, 0, 0, 0.5);
+}

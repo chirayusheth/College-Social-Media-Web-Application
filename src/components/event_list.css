@@ -1,0 +1,37 @@
+/* .container {
+  max-width: 1400px !important;
+} */
+
+.scrollEvent {
+  flex: 1;
+  overflow-y: scroll !important;
+}
+.filtersec {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.event-back {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  height: 70vh;
+  margin-left: 0px;
+}
+
+.dropdown {
+  margin-bottom: 0px !important;
+  align-items: center;
+}
+.btn {
+  margin-top: -10px !important;
+  height: 100% !important;
+  width: 130px !important;
+  border-radius: 4px !important;
+  align-content: center !important;
+}
+
+.eventList {
+  width: 100% !important;
+}

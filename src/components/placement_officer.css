@@ -1,0 +1,184 @@
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#logo {
+  height: 73px;
+  padding-top: 0;
+  width: 200px;
+}
+
+.navbar {
+  position: fixed;
+}
+
+.navbar-brand {
+  padding: 0 25px;
+}
+
+.navbar-inverse {
+  height: 75px;
+  position: sticky;
+}
+
+.dashboard li {
+  font-size: 18px;
+  font-family: Georgia;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #ffffff;
+}
+
+.navbar-nav > li > a {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.navbar-inverse {
+  background: #1a1256;
+  opacity: 0.85;
+}
+
+.other {
+  margin-left: 5%;
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+}
+
+.company {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 500px;
+  height: 125px;
+  background: #ece3e3;
+  opacity: 0.85;
+  border: 1px solid #fb0000;
+  border-radius: 60px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.apply {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  position: absolute;
+}
+
+.fir {
+  margin-left: 5%;
+  top: 125px;
+}
+
+.btn {
+  border-radius: 22px;
+  width: 85px;
+  height: 35px;
+}
+
+.btn2 {
+  margin-left: 350px;
+  margin-top: 45px;
+  width: 100px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.btn-success {
+  background: #2bd80b;
+  color: black;
+}
+
+.btn-danger {
+  background: #d82b0b;
+  color: black;
+}
+
+.detail {
+  margin-left: 15px;
+  margin-top: 20px;
+  width: 70%;
+  overflow: hidden;
+  display: inline-block;
+  font-family: Calibri;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.place_form {
+  font-family: sans-serif;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 50px;
+  width: 520px;
+  height: 630px;
+  background: #0d0f10;
+  opacity: 0.85;
+  background-size: cover;
+  color: #fff;
+  margin-top: 10%;
+  left: 15%;
+  position: absolute;
+  box-sizing: border-box;
+  padding: 30px 15px;
+}
+
+.form_header {
+  color: #fff;
+  font-family: initial;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-weight: bolder;
+  font-size: 50px;
+  padding: 15px auto;
+}
+
+.place_form p {
+  margin-left: 25px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.place_form input,
+.dropdown {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.place_form .dropdown-toggle {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+
+.place_form input[type="text"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 13px;
+  margin-left: 25px;
+}
+
+.place_form input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  margin: 15px auto;
+}
+.place_form input[type="submit"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}

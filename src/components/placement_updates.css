@@ -1,0 +1,20 @@
+.header {
+  margin-top: 1%;
+  padding-top: 15px;
+  font-size: 30px;
+  max-height: 100px;
+  margin-bottom: 20px;
+  /* border-bottom: 1px gray solid; */
+  color: black;
+  /* background-image: url(Event-b.jpg); */
+  background-color: rgba(97, 222, 253, 0.863);
+  box-shadow: 2px 3px 8px 1px rgba(172, 172, 172, 0.342);
+}
+
+.heading {
+  margin-bottom: 2px;
+  padding: 5px;
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: black;
+}
