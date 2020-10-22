@@ -1,4 +1,17 @@
 # College-Social-Media-Web-Application
+This is role based Social media application made for colleges.
+
+(1) Admin 
+	- will have accesss to everything like verifying user, verifying post etc.
+
+(2) committee 
+	- will have access to post an Event. 
+(3) Proffesor
+	- will have access to post blog or news about cuurrent technology and research.
+(4) User/student
+	- will have access to view event,RSVP event, comment on post or news.
+(5) Placement Officer
+	- will have access to post about any upcoming company, placement related information. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
