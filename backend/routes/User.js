@@ -9,7 +9,13 @@ router.route("/").get(async (req, res) => {
     .then((User) => res.json(User))
     .catch((err) => res.status(400).json("Error: " + err));
 });
+router.route('/').put(async (req, res) => {
+  console.log("PUT not supported")
+})
 
+router.route('/').delete(async (req, res) => {
+  console.log("DELeTE not supported")
+})
 router.route("/register").post((req, res) => {
   const username = req.body.username;
   const password = bcrypt.hashSync(req.body.password, 10);
@@ -58,31 +64,31 @@ router.route("/isLoggedIn").get((req, res, next) => {
 
 /* 
 router.route('/login').post(async (req, res) => {
-	await ClubCom.findOne({ username: req.body.username })
-		.then(ClubCom => {
-			if (ClubCom == null) {
-				User.findOne({ username: req.body.username })
-					.then(user => {
-						if (user == null) {
-							return res.status(400).json('username does not exist');
-						}
-						else if (!bcrypt.compareSync(req.body.password, user.password)) {
-							return res.status(400).json('Message: The password is invalid');
-						}
-						else {
-							res.json('Login Succesful for id' + user._id);
-						}
-					})
-					.catch(err => res.status(400).json('Error: ' + err));
-			}
-			else if (!bcrypt.compareSync(req.body.password, ClubCom.password)) {
-				return res.status(400).json('Message: The password is invalid');
-			}
-			else {
-				res.json('Login Succesful for id' + ClubCom._id);
-			}
-		})
-		.catch(err => res.status(400).json('Error' + err));
+  await ClubCom.findOne({ username: req.body.username })
+    .then(ClubCom => {
+      if (ClubCom == null) {
+        User.findOne({ username: req.body.username })
+          .then(user => {
+            if (user == null) {
+              return res.status(400).json('username does not exist');
+            }
+            else if (!bcrypt.compareSync(req.body.password, user.password)) {
+              return res.status(400).json('Message: The password is invalid');
+            }
+            else {
+              res.json('Login Succesful for id' + user._id);
+            }
+          })
+          .catch(err => res.status(400).json('Error: ' + err));
+      }
+      else if (!bcrypt.compareSync(req.body.password, ClubCom.password)) {
+        return res.status(400).json('Message: The password is invalid');
+      }
+      else {
+        res.json('Login Succesful for id' + ClubCom._id);
+      }
+    })
+    .catch(err => res.status(400).json('Error' + err));
 
 });
 */
