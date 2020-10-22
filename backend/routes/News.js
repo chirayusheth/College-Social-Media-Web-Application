@@ -6,7 +6,12 @@ router.route("/").get((req, res) => {
     .then((News) => res.json(News))
     .catch((err) => res.status(400).json("Error: " + err));
 });
-
+router.route('/').post((req, res) => {
+  console.log('POST not support on this route')
+})
+router.route('/').put((req, res) => {
+  console.log('PUT not supported on this route')
+})
 router.route("/add").post((req, res) => {
   const Title = req.body.Title;
   const Date = req.body.Date;
